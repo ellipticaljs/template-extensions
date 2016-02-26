@@ -1,10 +1,10 @@
 (function (root, factory) {
     if (typeof module !== 'undefined' && module.exports) {
         //commonjs
-        module.exports = factory(require('elliptical-utils'), require('dustjs'));
+        module.exports = factory(require('elliptical-utils'), require('elliptical-template'));
     } else if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['elliptical-utils', 'dustjs'], factory);
+        define(['elliptical-utils', 'elliptical-template'], factory);
     } else {
         // Browser globals (root is window)
         root.elliptical = root.elliptical || {};
