@@ -101,6 +101,11 @@
                 }
                 if (callback) callback(err, fragment);
             });
+        },
+
+        templateExists:function(templateId){
+            var $provider = $Template.$provider;
+            return ($provider.cache[templateId]!==undefined);
         }
 
     };
