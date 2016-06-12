@@ -1,7 +1,7 @@
 {
   "name": "elliptical-template-extensions",
   "description": "Template Extensions",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/elliptical.template.extensions.js",
   "authors": [
     "S. Francis"
@@ -40,7 +40,7 @@
     "bk"
   ],
   "dependencies": {
-    "elliptical-utils": "~2.0.4",
+    "elliptical-utils": "~2.1.0",
     "elliptical-template": "~1.0.2"
   }
 }
